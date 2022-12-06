@@ -145,7 +145,7 @@ plt.xlim([-180, 180])
 plt.ylim([-90, 90])
 plt.xlabel("longitude")
 plt.ylabel("latitude")
-plt.savefig('output.png')
+plt.savefig('randomForest.png')
 plt.show()
 
 print("R2 score --> Random Forest ------->",r2_score(y_test,prediction_values))
@@ -175,7 +175,7 @@ plt.xlim([-180, 180])
 plt.ylim([-90, 90])
 plt.xlabel("longitude")
 plt.ylabel("latitude")
-plt.savefig('output.png')
+plt.savefig('svm.png')
 plt.show()
 
 estimators = [  ('rfg',svmModel),  
@@ -205,7 +205,7 @@ plt.xlim([-180, 180])
 plt.ylim([-90, 90])
 plt.xlabel("longitude")
 plt.ylabel("latitude")
-plt.savefig('output.png')
+plt.savefig('StackingOutput.png')
 plt.show()
     
 
